@@ -1,0 +1,44 @@
+:root {
+  /* light theme color */
+  --background: #fff;
+  --background-secondary: #eaeaea;
+  --header: #fafafa;
+  --color: #222;
+  --color-secondary: #999;
+  --border-color: #dcdcdc;
+
+  /* variables for js, must be the same as these in @custom-media queries */
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
+}
+
+body.dark-theme {
+  /* dark theme colors */
+  --background: #1B262C;
+  --background-secondary: #0F4C75;
+  --header: #252627;
+  --color: #3282B8;
+  --color-secondary: #BBE1FA;
+  --border-color: #4a4b50;
+}
+
+@custom-media --phone (width < 684px);
+@custom-media --tablet (width < 900px);
+
+@define-mixin greater-icon $stroke-width: 3px, $width: .95rem, $height: 100% {
+  .greater-icon {
+    width: $width;
+    height: $height;
+
+    path {
+      stroke: currentColor;
+      stroke-width: $stroke-width;
+    }
+  }
+}
+
+/* HOW TO USE */
+
+/*@media (--phone) {*/
+  /*margin-top: 0;*/
+/*}*/
