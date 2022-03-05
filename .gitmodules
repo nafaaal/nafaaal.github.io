@@ -1,10 +1,9 @@
-[submodule "themes/hello-friend"]
-	path = themes/hello-friend
-	url = https://github.com/panr/hugo-theme-hello-friend.git
 [submodule "public"]
 	path = public
 	url = git@github.com:nafaaal/nafaaal.github.io.git
-	branch = main
+  branch = main
+  update = merge
 [submodule "themes/hugo-theme-hello-friend"]
 	path = themes/hugo-theme-hello-friend
-	url = git@github.com:nafaaal/hugo-theme-hello-friend.git
+  url = git@github.com:nafaaal/hugo-theme-hello-friend.git
+  update = merge
