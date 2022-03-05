@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:nafaaal/nafaaal.github.io.git
 	branch = main
+[submodule "themes/hugo-theme-hello-friend"]
+	path = themes/hugo-theme-hello-friend
+	url = git@github.com:nafaaal/hugo-theme-hello-friend.git
