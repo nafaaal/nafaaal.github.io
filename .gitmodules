@@ -3,7 +3,9 @@
 	url = git@github.com:nafaaal/nafaaal.github.io.git
   branch = main
   update = merge
+  ignore = all
 [submodule "themes/hugo-theme-hello-friend"]
 	path = themes/hugo-theme-hello-friend
   url = git@github.com:nafaaal/hugo-theme-hello-friend.git
   update = merge
+  ignore = all
