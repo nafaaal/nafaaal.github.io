@@ -15,8 +15,8 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Home"
-    subtitle = "Nafaal's blog"
+    title = "Nafaal's blog"
+    subtitle = "-"
     keywords = ""
     copyright = ""
     menuMore = "Show more"

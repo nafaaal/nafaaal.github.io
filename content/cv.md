@@ -1,6 +1,5 @@
 +++
 title = "Curriculum Vitae"
-date = "2022-03-03"
 author = "Nafaal"
 +++
 
