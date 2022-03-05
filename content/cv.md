@@ -1,5 +1,6 @@
 +++
 title = "Curriculum Vitae"
-author = "Nafaal"
+pdf = "yes"
 +++
 
+Content Here

@@ -82,6 +82,10 @@
       {{ end }}
     {{ end }}
 
+    {{ if .Params.PDF }}
+      {{ partial "pdf.html" . }}
+    {{ end }}
+
     {{ if not (eq .Params.Comments "false") }}
       {{ if or (eq .Type $.Site.Params.contentTypeName) (.Params.Comments) }}
         {{ partial "comments.html" . }}
