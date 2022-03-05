@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nafaal's blog</title><link>/</link><description>Recent content on Nafaal's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Friend</title><link>/post/hello/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>/post/hello/</guid><description>
-&lt;img src="img/hello.jpg"/>
+&lt;img src="/img/hello.jpg"/>
 "Hello, friend?" That's lame. Maybe I should give you a name?</description></item><item><title>About Me</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>
 Hi there # My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
 We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
