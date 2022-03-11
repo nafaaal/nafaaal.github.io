@@ -1,21 +1,13 @@
 +++
-title = "Hello Friend"
-date = "2021-09-17"
-author = "Elliot"
+title = "Work in progress"
+date = "2022-03-07"
+author = "Nafaal"
 cover = "img/hello.jpg"
-description = "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
+description = "Heya! Thanks for visiting my blog. Its currently under works but it will be up with content soon!"
 +++
 
-> "Hello, friend?" That's lame.
-> Maybe I should give you a name...
-> But that's a slippery slope.
-> You're only in my head.
-> We have to remember that...
-> Shit.
-> It's actually happened.
-> I'm talking to an imaginary person.
->
-> **— Mr. Robot S01E01**
+
+> **- Check back later!!**
 
 
 
