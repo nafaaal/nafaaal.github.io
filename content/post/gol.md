@@ -100,7 +100,7 @@ We can use multiple threads to parrallelize and make the simulation compute fast
 
 We would just need to split the world and pass it onto different threads to compute the result quicker.
 
-The implementation for this can be found [here](https://github.com/nafaaal/gol-coursework)
+The implementation for this can be found [here](https://github.com/nafaaal/parallel_gol_coursework)
 
 ---------------------------------------
 
@@ -112,7 +112,7 @@ This distributed method can also scale like the other parallel method, by sendin
 
 However the network latency to send and recieve large arrays seems to be the bigger bottleneck in this approach
 
-The code for this implementation can be found [here](https://github.com/nafaaal/distributed-gol-coursework)
+The code for this implementation can be found [here](https://github.com/nafaaal/distributed_gol_coursework)
 
 ---------------------------------------
 
