@@ -11,7 +11,7 @@ paginate = 5
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 3
   # Enable to show reading time in minutes for posts
-  showReadingTime = false
+  showReadingTime = true
 
 [languages]
   [languages.en]
@@ -43,6 +43,6 @@ paginate = 5
         name = "cv"
         url = "/cv"
       [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "projects"
-        url = "/projects"
+        identifier = "archive"
+        name = "posts"
+        url = "/archive"
