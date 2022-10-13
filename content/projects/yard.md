@@ -3,7 +3,7 @@ title = "Scotland Yard"
 date = "2021-05-14"
 author = "Nafaal"
 cover = "img/yard.png"
-description = " "
+description = "Implementation of Scotland Yard board game using Java for my Object Oriented Programming module at the University of Bristol"
 contentTypeName = "projects"
 +++
 
