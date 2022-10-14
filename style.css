@@ -44,14 +44,17 @@ body.dark-theme {
 @media (max-width:900px) {
   .footer .copyright>:not(:last-child) {
     border: none;
-    padding: 0;
-    margin: 0
+    padding: 5px;
+    margin: 5px
   }
+
 }
 
 @media (max-width:900px) {
   .footer .copyright {
     flex-direction: column;
+    display: inline;
     margin-top: 10px
   }
 }
+
