@@ -1,7 +1,7 @@
 +++
 title = "JSON Web Tokens"
 date = "2022-10-18"
-cover = "img/jwt_0.png"
+cover = "img/jwt_banner.png"
 description = "what are JAY DUBLEW TEES?????"
 contentTypeName = "projects"
 +++
@@ -17,7 +17,7 @@ The foundation of any data transfer over the internet is the Hyper Text Transfer
 
 &nbsp;
 
-The HTTP protocol itself does not remember the history of previous requests. So if someone logs into to a website in one request, how does the server know who that person is in the subsequent requests? 
+The HTTP protocol itself does not remember the history of previous requests. So if someone logs into to a website in one request, how does the server remember this person in subsequent requests? 
 
 This is where JSON Web Tokens come in. It is used to identify and track user activity, allowing the server to know who they are communicating with, without having to send their credentials with each and every single request. 
 
@@ -35,17 +35,15 @@ The client then needs to send this token back in future requests so that the ser
 
 A JSON Web Token consists of 3 parts.
 
-1) Header
-2) Payload
-3) Signature
+- Header
+- Payload
+- Signature
 
-They are seperated with a `.` in the form: 
-
-- `hhhhhhhhhh.pppppppppp.ssssssssss`
+They are seperated with a `.` in the form: `hhhhhhhhhh.pppppppppp.ssssssssss`
 
 &nbsp;
 
-### The Header
+- #### The Header
 It only consists of the type of hash used to sign the token, alongside what type of token it is; which is a JWT in this case.
 
 ```json
@@ -57,7 +55,7 @@ It only consists of the type of hash used to sign the token, alongside what type
 
 &nbsp;
 
-### The Payload
+- #### The Payload
 The payload contains some data or "claims" which can be linked to the client, which the server uses to verify whether the user has permissions to perform an action they may have requested.
 ```json
 {
@@ -69,10 +67,12 @@ The payload contains some data or "claims" which can be linked to the client, wh
 
 &nbsp;
 
-### The Signature
+- #### The Signature
 The header and the payload are each encoded into Base64Url and is concatenated in the form `base64urlencode(hhhhhhhhhh)+ "." +base64urlencode(pppppppppp)`. The resulting string is then hashed using the algorithm specified in the header with a secret private key which the server only has access to.
 
 In future requests, when the client send the JWT with their request, the server will compute the hash again and compare it with the signature of the recieved JWT to ensure its authenticity.
+
+&nbsp;
 
 ![JWT Server Compare](/img/jwt_3.png)
 
