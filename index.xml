@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nafaal's Blog</title><link>/</link><description>Recent content on Nafaal's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>JSON Web Tokens</title><link>/post/jwt/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>/post/jwt/</guid><description>
-&lt;img src="/img/jwt_0.png"/>
+&lt;img src="/img/jwt_banner.png"/>
 what are JAY DUBLEW TEES?????</description></item><item><title>Conways Game of Life Simulation</title><link>/post/gol/</link><pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate><guid>/post/gol/</guid><description>
 &lt;img src="/img/1200x600_Life.jpg"/>
 Implementation of Game of Life Simulation using Golang for my Computer Systems A module at the University of Bristol</description></item><item><title>Scotland Yard</title><link>/post/yard/</link><pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate><guid>/post/yard/</guid><description>
