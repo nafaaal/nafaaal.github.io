@@ -3,7 +3,6 @@ title = "Conways Game of Life Simulation"
 date = "2022-03-07"
 cover = "img/1200x600_Life.jpg"
 description = "Implementation of Game of Life Simulation using Golang for my Computer Systems A module at the University of Bristol"
-contentTypeName = "projects"
 +++
 
 ### What is Life?
