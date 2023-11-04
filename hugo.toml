@@ -1,15 +1,16 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hugo-theme-hello-friend"
-paginate = 5
+paginate = 10
 
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "post"
+  contentDir = "content"
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 2
   # Enable to show reading time in minutes for posts
   showReadingTime = true
 
@@ -21,7 +22,7 @@ paginate = 5
     subtitle = ""
     keywords = ""
     copyright = ""
-    menuMore = "Show more"
+    menuMore = ""
     writtenBy = "Written by"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -37,14 +38,22 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "whoami"
-        url = "/about"
-      [[languages.en.menu.main]]
         identifier = "cv"
         name = "cv"
         url = "/cv"
+        weight = 1
       [[languages.en.menu.main]]
-        identifier = "archive"
-        name = "posts"
-        url = "/archive"
+        identifier = "writeups"
+        name = "writeups"
+        url = "/writeups"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "notes"
+        name = "notes"
+        url = "/notes"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "tools"
+        name = "tools"
+        url = "/tools"
+        weight = 4
