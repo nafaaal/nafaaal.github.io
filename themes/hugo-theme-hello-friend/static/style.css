@@ -69,16 +69,13 @@ body.dark-theme {
 
 .homepage p {
     text-align: justify; /* Justify the text */
-    word-wrap: break-word;
 }
 
 
 @media (max-width:900px) {
   .homepage {
-    max-width: 500px;
     padding-left: 75px; /* Reduce padding for smaller screens */
     padding-right: 75px; /* Reduce padding for smaller screens */
-    text-overflow: initial;
   }
 }
 
