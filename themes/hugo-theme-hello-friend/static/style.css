@@ -61,7 +61,7 @@ body.dark-theme {
 .homepage {
   max-width: 1000px; /* Adjust the maximum width as per your design */
   margin: 0 auto; /* Center the content horizontally */
-  padding: 20px; /* Add padding on both sides of the container */
+  padding: 10px; /* Add padding on both sides of the container */
   word-wrap: break-word;
   flex-direction: column;
   /* position: absolute; */
@@ -98,4 +98,14 @@ margin-bottom: 20px;
 
 .homepage-image img{
 width:100%;
+}
+
+.home-icons {
+  display: inline-flex;
+  filter: invert(1);
+}
+
+.home-icons a {
+  padding-left: 10px;
+  padding-right: 10px;
 }
