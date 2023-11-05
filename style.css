@@ -67,7 +67,7 @@ body.dark-theme {
   /* position: absolute; */
 }
 
-.homepage p {
+.homepage p{
   text-align: justify; /* Justify the text */
 }
 
@@ -85,13 +85,19 @@ justify-content: center;
 align-items: center;
 height: 25vh; /* Center vertically on the entire viewport height */
 
-width: 150px;
-height: 150px;
+width: 200px;
+height: 200px;
 border-radius: 50%;
 overflow: hidden;
 background-color: blue;
 margin-top: 40px;
 margin-bottom: 20px;
+
+border-width: 4px;
+border-style: solid;
+border-radius: 200px;
+box-sizing: border-box;
+border: 2px solid #cfd8dc;
 
 
 }
@@ -100,12 +106,8 @@ margin-bottom: 20px;
 width:100%;
 }
 
-.home-icons {
-  display: inline-flex;
-  filter: invert(1);
-}
 
-.home-icons a {
+.home-icons a{
   padding-left: 10px;
   padding-right: 10px;
 }
